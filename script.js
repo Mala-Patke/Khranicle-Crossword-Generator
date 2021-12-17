@@ -129,7 +129,7 @@ function generateDemoCrossword(sidelen) {
   }
   document.getElementById('demonums').innerHTML = parent.innerHTML;
   
-  parent.innerHTML = "<p>Letters: Insert the correct answers for the puzzle. Put a \"-\" if you would like to insert a black square</p>." + parent.innerHTML;
+  parent.innerHTML = "<p>Letters: Insert the correct answers for the puzzle. Put a \"-\" if you would like to insert a black square</p>" + parent.innerHTML;
   document.getElementById('demonums').innerHTML = "<p>Numbers: Insert any value into a square and a corresponding number will be rendered in its top left corner.</p>" + document.getElementById('demonums').innerHTML + `<button onclick = "extractData()">Create Crossword!</button>`
 }
 
